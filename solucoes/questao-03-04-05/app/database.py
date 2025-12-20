@@ -21,11 +21,6 @@ SessionLocal = sessionmaker(
 # Base para os models herdarem
 Base = declarative_base()
 
-
-# ==============================================================================
-# Dependency Injection - Para usar nos endpoints FastAPI
-# ==============================================================================
-
 def get_db():
     """
     Cria uma sessão de banco de dados e garante que seja fechada após o uso.
