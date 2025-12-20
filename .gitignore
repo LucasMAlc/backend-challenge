@@ -1,1 +1,3 @@
 solucoes/questao-03-04-05/.env
+__pycache__/
+*.pyc
