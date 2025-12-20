@@ -144,6 +144,22 @@ Resposta esperada (status 201):
 
 **Nota:** O campo `password` é opcional. Se não fornecido, será gerado automaticamente.
 
+## 7. Testes Automatixados
+
+O projeto possui testes automatizados para os principais endpoints.
+
+Para executar:
+
+```bash
+pytest
+```
+
+Os testes validam:
+
+- Criação de usuários
+- Consulta de roles por id
+- Validações básicas de erro
+
 ## Estrutura do Projeto
 
 ```
